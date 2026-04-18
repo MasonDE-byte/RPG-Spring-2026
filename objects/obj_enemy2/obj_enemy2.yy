@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ememy1",
+  "%Name":"obj_enemy2",
   "eventList":[],
   "managed":true,
-  "name":"obj_ememy1",
+  "name":"obj_enemy2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
