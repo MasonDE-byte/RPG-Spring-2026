@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_enemy_boss",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ememy_parent","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ememy_parent","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ememy_parent","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ememy_parent","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"propertyId":{"name":"xp_value","path":"objects/obj_ememy_parent/obj_ememy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
   ],
