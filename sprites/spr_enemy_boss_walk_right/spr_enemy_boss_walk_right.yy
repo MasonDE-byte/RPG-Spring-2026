@@ -18,14 +18,15 @@
     {"$GMSpriteFrame":"v1","%Name":"eff8ace3-6296-405e-81a4-5805e3f8eaa8","name":"eff8ace3-6296-405e-81a4-5805e3f8eaa8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"fd881cd5-e839-42b3-9f32-10aec126ee0d","name":"fd881cd5-e839-42b3-9f32-10aec126ee0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"bbaedda2-588b-48dd-90e1-1c2282dc2a2d","name":"bbaedda2-588b-48dd-90e1-1c2282dc2a2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe36eef8-c964-4b87-8053-b679d3ef0ab8","name":"fe36eef8-c964-4b87-8053-b679d3ef0ab8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2d685eb8-0e21-4a35-8ed5-981f1dace90c","blendMode":0,"displayName":"default","isLocked":false,"name":"2d685eb8-0e21-4a35-8ed5-981f1dace90c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"d191ce83-c839-4a86-aa0c-16594833ec46","blendMode":0,"displayName":"Left Arm","isLocked":false,"name":"d191ce83-c839-4a86-aa0c-16594833ec46","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2d685eb8-0e21-4a35-8ed5-981f1dace90c","blendMode":0,"displayName":"Body","isLocked":false,"name":"2d685eb8-0e21-4a35-8ed5-981f1dace90c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d191ce83-c839-4a86-aa0c-16594833ec46","blendMode":0,"displayName":"Back Limbs","isLocked":false,"name":"d191ce83-c839-4a86-aa0c-16594833ec46","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_enemy_boss_walk_right",
   "nineSlice":null,
@@ -55,7 +56,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":6.0,
+    "length":7.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -92,6 +93,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbaedda2-588b-48dd-90e1-1c2282dc2a2d","path":"sprites/spr_enemy_boss_walk_right/spr_enemy_boss_walk_right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ef7e9464-47a2-4d9a-a0a1-84e31e734f25","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe36eef8-c964-4b87-8053-b679d3ef0ab8","path":"sprites/spr_enemy_boss_walk_right/spr_enemy_boss_walk_right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"be943463-982c-46ec-af7b-d06541ad2b21","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
