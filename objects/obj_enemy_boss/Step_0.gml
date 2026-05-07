@@ -14,12 +14,12 @@ if (_yy != 0 or _xx != 0)
 {
 	if (_yy > 0) sprite_index = spr_boss_walk_down
 	   else if (_yy < 0) sprite_index = spr_boss_walk_up
-	       else if (_xx > 0) sprite_index = spr_boss_walk_right
+	       else if (_xx > 0) sprite_index = spr_boss_walk_left
 	           else if (_xx < 0) sprite_index = spr_boss_walk_left
 }
 else
 {
- if ( sprite_index == spr_boss_walk_right) sprite_index = spr_boss_idle_right
+ if ( sprite_index == spr_boss_walk_left) sprite_index = spr_boss_idle_right
     else if ( sprite_index == spr_boss_walk_left) sprite_index = spr_boss_idle_left
         else if ( sprite_index == spr_boss_walk_up) sprite_index = spr_boss_idle_up
             else if ( sprite_index == spr_boss_walk_down) sprite_index = spr_boss_idle_down
