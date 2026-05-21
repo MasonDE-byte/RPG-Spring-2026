@@ -1,1 +1,1 @@
-room_goto(obj_battle_switcher.original_room)
+room_goto(rm_map)

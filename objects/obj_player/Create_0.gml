@@ -20,6 +20,7 @@ function add_xp(_xp_to_add)
         xp -= xp_require;
         xp_require *= 1.4;
         
+        audio_play_sound(snd_levelup, real, false)
         
         hp += 5;
         hp = hp_total;
