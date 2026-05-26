@@ -7,3 +7,5 @@
 * Final boss added
 * Reset upon death
 * Leveling system
+* Health potion object and sound
+* Seperate boss screen
