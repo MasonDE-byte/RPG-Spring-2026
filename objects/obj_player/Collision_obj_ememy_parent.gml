@@ -9,6 +9,11 @@ _switcher.original_room = room;
 if (other.object_index == obj_enemy_boss) 
 {
     room_goto(rm_boss_battle)
+    draw_sprite_stretched(spr_box, 0, 100, 100, 115, 31) //100, 100 to 215, 131 but need to fix this area so it shows the box, disapears and talks with the text.
+    audio_play_sound(snd_talking, real, true)
+    call_later(10, time_source_units_seconds, function() {
+    audio_stop_sound(snd_talking)
+    })
 } 
 else
 {

@@ -1,3 +1,5 @@
+audio_play_sound(snd_heal, real, false)
+
 obj_player.hp = obj_player.hp + 2.5
 
 if obj_player.hp > obj_player.hp_total
