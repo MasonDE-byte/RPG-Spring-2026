@@ -6,11 +6,11 @@ _switcher.player_data = self;
 _switcher.enemy_data = other;
 _switcher.original_room = room;
 
-if (_switcher.enemy_data == obj_enemy1 || _switcher.enemy_data == obj_enemy2)
+if (other.object_index == obj_enemy_boss) 
 {
-    room_goto(rm_battle);
-}
-else 
+    room_goto(rm_boss_battle)
+} 
+else
 {
-	room_goto(rm_boss_battle);
+    room_goto(rm_battle)
 }

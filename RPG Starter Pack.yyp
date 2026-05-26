@@ -44,6 +44,7 @@
     {"id":{"name":"obj_enemy_boss","path":"objects/obj_enemy_boss/obj_enemy_boss.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
+    {"id":{"name":"obj_health_potion","path":"objects/obj_health_potion/obj_health_potion.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"id":{"name":"rm_boss_battle","path":"rooms/rm_boss_battle/rm_boss_battle.yy",},},
