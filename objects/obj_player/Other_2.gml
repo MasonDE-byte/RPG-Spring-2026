@@ -1,1 +1,1 @@
-audio_play_sound(snd_game_music, real, bool);
+audio_play_sound(snd_game_music, real, true);

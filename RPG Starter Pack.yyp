@@ -48,6 +48,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"id":{"name":"rm_boss_battle","path":"rooms/rm_boss_battle/rm_boss_battle.yy",},},
+    {"id":{"name":"rm_dialogue","path":"rooms/rm_dialogue/rm_dialogue.yy",},},
     {"id":{"name":"rm_map","path":"rooms/rm_map/rm_map.yy",},},
     {"id":{"name":"snd_game_music","path":"sounds/snd_game_music/snd_game_music.yy",},},
     {"id":{"name":"snd_heal","path":"sounds/snd_heal/snd_heal.yy",},},
@@ -93,6 +94,7 @@
     {"roomId":{"name":"rm_map","path":"rooms/rm_map/rm_map.yy",},},
     {"roomId":{"name":"rm_boss_battle","path":"rooms/rm_boss_battle/rm_boss_battle.yy",},},
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
+    {"roomId":{"name":"rm_dialogue","path":"rooms/rm_dialogue/rm_dialogue.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
