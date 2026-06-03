@@ -12,5 +12,6 @@ player_attack = function (_damage)
 
 check_for_end = function ()
 {
-    return (obj_battle_enemy.data.hp <= 0 || obj_battle_player.data.hp <= 0)
+    return 
+    (obj_battle_enemy.data.hp <= 0 || obj_battle_player.data.hp <= 0)
 }
