@@ -11,7 +11,9 @@ _dy += 16;
 draw_set_font(Font)
 
 var _name = messages[current_message].name;
+draw_set_colour(global.char_colours[$ _name]);
 draw_text(_dx, _dy, _name)
+draw_set_colour(c_white);
 
 _dy += 40;
 

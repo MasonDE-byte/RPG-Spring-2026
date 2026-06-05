@@ -1,3 +1,5 @@
+if (instance_exists(obj_dialogue)) exit;
+
 var _xx = clamp(target_x - x, -1, 1);
 var _yy = clamp(target_y - y, -1, 1);
 
