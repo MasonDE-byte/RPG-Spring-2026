@@ -8,61 +8,63 @@ function create_dialogue(_messages){
 
 char_colours = {
     "Congrats": c_yellow,
-    "Cross": c_yellow,
-    "Singh": c_aqua,
-    "Cam": c_orange
+    "Mike": c_yellow,
+    "Hero": c_aqua,
+    "Chara": c_aqua,
+    "Matt": c_orange,
+    "???": c_red
 }
 
 welcome_dialogue = [
 { // This is the filler dialogue so I need to change it to what I want it to say!
-    name: "Cross",
-    msg: "Welcome to the pit!"
+    name: "Mike",
+    msg: "Help! The boss at the end of the dungeon kidnapped my brother after recking our village!"
 },
 
 {
-    name: "Singh",
-    msg: "Thanks!"
+    name: "Hero",
+    msg: "Don't worry, I can help you out but what is your brother's name?"
 },
 
 {
-    name: "Singh",
-    msg: "Thanks!"
+    name: "Mike",
+    msg: "His name is Matt, please hurry, I don't think he has much time!"
 },
 
 {
-    name: "Singh",
-    msg: "Thanks!"
+    name: "Hero",
+    msg: "No need to worry, I got this!"
 },
 
 {
-    name: "Singh",
-    msg: "Thanks!"
+    name: "Mike",
+    msg: "Thank you for willing to help us!"
 },
 ]
 
 complete_dialogue = [
 { // This is the filler dialogue so I need to change it to what I want it to say!
-    name: "Cross",
-    msg: "Welcome to the pit!"
+    name: "Matt",
+    msg: "(While sobbing) Oh my gosh, that was so scarry!"
 },
 
 {
-    name: "Cam",
-    msg: "Thanks!"
+    name: "Hero",
+    msg: "It is okay now, I stopped the Demon Captin!"
 },
 
 {
-    name: "Cam",
-    msg: "Thanks!"
+    name: "Matt",
+    msg: "Thank you so much! You are my hero! What is you name?"
 },
 
 {
-    name: "Cam",
-    msg: "Thanks!"
+    name: "Chara",
+    msg: "My name dosen't matter much, but if you need to know it is Chara."
 },
 
 {
-    name: "Cam",
-    msg: "Thanks!"
+    name: "???",
+    msg: "Undertales Achivement Unlock! The True Name"
 },
 ]
