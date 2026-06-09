@@ -9,3 +9,7 @@
 * Leveling system
 * Health potion object and sound
 * Seperate boss screen
+* New Npcs
+* Dialogue
+* Storyline
+* Leveling announcement
